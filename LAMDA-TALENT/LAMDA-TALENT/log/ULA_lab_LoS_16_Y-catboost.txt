@@ -1,0 +1,65 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'indices',
+ 'config': {'fit': {'logging_level': 'Silent'},
+            'model': {'early_stopping_rounds': 50,
+                      'loss_function': 'MultiRMSE',
+                      'n_estimators': 2000,
+                      'od_pval': 0.001}},
+ 'dataset': 'ULA_lab_LoS_16_Y',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'catboost',
+ 'n_bins': 2,
+ 'n_trials': 20,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/ULA_lab_LoS_16_Y-catboost-Tune/Norm-standard-Nan-mean-new-Cat-indices',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': True}
+{'fit': {'logging_level': 'Silent', 'n_bins': 2}, 'model': {'early_stopping_rounds': 50, 'n_estimators': 2000, 'od_pval': 0.001, 'loss_function': 'MultiRMSE'}}
+[32m[I 2025-04-10 05:14:31,973][0m Trial 0 finished with value: 619.9505619177635 and parameters: {'bagging_temperature': 0.5488135039273248, 'depth': 8, 'l2_leaf_reg': 4.006483661964395, 'leaf_estimation_iterations': 6, 'learning_rate': 0.0013130280280658588, 'n_bins': 166}. Best is trial 0 with value: 619.9505619177635.[0m
+[32m[I 2025-04-10 05:26:21,725][0m Trial 1 finished with value: 123.37175228279814 and parameters: {'bagging_temperature': 0.4375872112626925, 'depth': 10, 'l2_leaf_reg': 9.197350992568118, 'leaf_estimation_iterations': 4, 'learning_rate': 0.09091283280651452, 'n_bins': 136}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 05:38:34,571][0m Trial 2 finished with value: 887.5453709494946 and parameters: {'bagging_temperature': 0.5680445610939323, 'depth': 10, 'l2_leaf_reg': 1.177703750752171, 'leaf_estimation_iterations': 1, 'learning_rate': 1.2620948285169303e-05, 'n_bins': 214}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 05:46:34,399][0m Trial 3 finished with value: 556.4727775807221 and parameters: {'bagging_temperature': 0.7781567509498505, 'depth': 9, 'l2_leaf_reg': 9.519592150539829, 'leaf_estimation_iterations': 8, 'learning_rate': 0.002029536243043473, 'n_bins': 201}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 05:51:06,318][0m Trial 4 finished with value: 508.93787839170824 and parameters: {'bagging_temperature': 0.11827442586893322, 'depth': 8, 'l2_leaf_reg': 1.3910837820057878, 'leaf_estimation_iterations': 10, 'learning_rate': 0.0040666950653938435, 'n_bins': 107}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 05:59:00,475][0m Trial 5 finished with value: 887.8282396971616 and parameters: {'bagging_temperature': 0.26455561210462697, 'depth': 9, 'l2_leaf_reg': 2.858579877336973, 'leaf_estimation_iterations': 6, 'learning_rate': 1.2415065128756008e-05, 'n_bins': 159}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:02:02,342][0m Trial 6 finished with value: 721.815222926425 and parameters: {'bagging_temperature': 0.6120957227224214, 'depth': 7, 'l2_leaf_reg': 8.785127695211985, 'leaf_estimation_iterations': 7, 'learning_rate': 0.0006273927602293597, 'n_bins': 113}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:03:16,303][0m Trial 7 finished with value: 863.7294610755453 and parameters: {'bagging_temperature': 0.6976311959272649, 'depth': 3, 'l2_leaf_reg': 4.642658243447122, 'leaf_estimation_iterations': 7, 'learning_rate': 0.00011269711680133673, 'n_bins': 34}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:05:05,887][0m Trial 8 finished with value: 180.79802709965293 and parameters: {'bagging_temperature': 0.31542835092418386, 'depth': 5, 'l2_leaf_reg': 3.717036026537111, 'leaf_estimation_iterations': 5, 'learning_rate': 0.8747202693855005, 'n_bins': 28}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:06:31,299][0m Trial 9 finished with value: 639.4547905005816 and parameters: {'bagging_temperature': 0.2088767560948347, 'depth': 4, 'l2_leaf_reg': 4.498920568462264, 'leaf_estimation_iterations': 3, 'learning_rate': 0.0021456252149689046, 'n_bins': 64}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:08:37,154][0m Trial 10 finished with value: 163.9734220475766 and parameters: {'bagging_temperature': 0.9406721260474019, 'depth': 6, 'l2_leaf_reg': 2.1726151738890094, 'leaf_estimation_iterations': 3, 'learning_rate': 0.13209343650657318, 'n_bins': 250}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:10:43,343][0m Trial 11 finished with value: 161.32663443067267 and parameters: {'bagging_temperature': 0.9170695369245536, 'depth': 6, 'l2_leaf_reg': 2.0226545861479037, 'leaf_estimation_iterations': 3, 'learning_rate': 0.1490235231179998, 'n_bins': 251}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:12:49,370][0m Trial 12 finished with value: 305.7498908666586 and parameters: {'bagging_temperature': 0.4204592667166979, 'depth': 6, 'l2_leaf_reg': 1.904078018235992, 'leaf_estimation_iterations': 3, 'learning_rate': 0.02988879384876776, 'n_bins': 245}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:14:29,586][0m Trial 13 finished with value: 257.98212160813273 and parameters: {'bagging_temperature': 0.9207916848524236, 'depth': 5, 'l2_leaf_reg': 6.37719188982155, 'leaf_estimation_iterations': 1, 'learning_rate': 0.05442549663054823, 'n_bins': 78}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:17:18,113][0m Trial 14 finished with value: 171.58581642707577 and parameters: {'bagging_temperature': 0.02105872283772492, 'depth': 7, 'l2_leaf_reg': 2.1926977891368065, 'leaf_estimation_iterations': 4, 'learning_rate': 0.6975112621728748, 'n_bins': 168}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:29:09,480][0m Trial 15 finished with value: 284.3198808426343 and parameters: {'bagging_temperature': 0.7941269897025685, 'depth': 10, 'l2_leaf_reg': 5.934841380976807, 'leaf_estimation_iterations': 2, 'learning_rate': 0.01412912961164752, 'n_bins': 3}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:30:50,344][0m Trial 16 finished with value: 163.498989293846 and parameters: {'bagging_temperature': 0.4155834690629373, 'depth': 5, 'l2_leaf_reg': 1.6502550187787532, 'leaf_estimation_iterations': 4, 'learning_rate': 0.24312010978990237, 'n_bins': 201}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:35:09,833][0m Trial 17 finished with value: 350.0876188939131 and parameters: {'bagging_temperature': 0.39772242854894535, 'depth': 8, 'l2_leaf_reg': 2.666168799823795, 'leaf_estimation_iterations': 5, 'learning_rate': 0.014101133111972473, 'n_bins': 138}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:36:35,080][0m Trial 18 finished with value: 202.8398609745801 and parameters: {'bagging_temperature': 0.9943091332528209, 'depth': 4, 'l2_leaf_reg': 1.014784976916903, 'leaf_estimation_iterations': 2, 'learning_rate': 0.15986281586084583, 'n_bins': 228}. Best is trial 1 with value: 123.37175228279814.[0m
+[32m[I 2025-04-10 06:44:21,444][0m Trial 19 finished with value: 142.4383461413644 and parameters: {'bagging_temperature': 0.6578946990989776, 'depth': 9, 'l2_leaf_reg': 7.162752026505829, 'leaf_estimation_iterations': 4, 'learning_rate': 0.06536185560481614, 'n_bins': 87}. Best is trial 1 with value: 123.37175228279814.[0m
+Best Hyper-Parameters
+{'model': {'bagging_temperature': 0.4375872112626925, 'depth': 10, 'l2_leaf_reg': 9.197350992568118, 'leaf_estimation_iterations': 4, 'learning_rate': 0.09091283280651452}, 'fit': {'n_bins': 136, 'logging_level': 'Silent'}}
+{'model': {'bagging_temperature': 0.4375872112626925, 'depth': 10, 'l2_leaf_reg': 9.197350992568118, 'leaf_estimation_iterations': 4, 'learning_rate': 0.09091283280651452}, 'fit': {'n_bins': 136, 'logging_level': 'Silent'}}
+catboost: 1 Trials
+MAE Results: 9.38475366e+01
+MAE MEAN = 9.38475366e+01 ± 0.00000000e+00
+R2 Results: 9.80926105e-01
+R2 MEAN = 9.80926105e-01 ± 0.00000000e+00
+RMSE Results: 1.23053450e+02
+RMSE MEAN = 1.23053450e+02 ± 0.00000000e+00
+Time Results: 690.98499775
+Time MEAN = 690.98499775 ± 0.00000000
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40326.375 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------

@@ -1,0 +1,25 @@
+train_loss: 0.7039978498849401
+train_mse: [ 74.772446 105.39108 ]
+train_mae: [6.70744   7.8186746]
+train_rmse: [ 8.647106 10.266016]
+train_r2: [0.9998972  0.99986655]
+val_loss: 23.239758993481832
+val_mse: [1101.4031 4845.113 ]
+val_mae: [18.223507 35.80308 ]
+val_rmse: [33.187393 69.60684 ]
+val_r2: [0.9984816  0.99392664]
+test_loss: 25.119918761485323
+test_mse: [1255.6112 5139.517 ]
+test_mae: [18.382065 36.252003]
+test_rmse: [35.434605 71.69042 ]
+test_r2: [0.9982755 0.993526 ]
+min_lr: 2e-05
+max_lr: 0.0004
+total_time: 4135.80887389183
+average_epoch_time: 20.67902433395386
+
+RMSE PosX: 35.43463134765625
+RMSE PosY: 71.69048309326172
+Mean Euclidean Error: 43.5646858215332
+Average Inference Time per Sample: 0.023 ms
+

@@ -1,0 +1,45 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'ordinal',
+ 'config': {'fit': {'verbose': False},
+            'model': {'booster': 'gbtree',
+                      'colsample_bytree': 0.8,
+                      'early_stopping_rounds': 50,
+                      'n_estimators': 2000,
+                      'n_jobs': -1,
+                      'subsample': 0.8,
+                      'tree_method': 'hist'}},
+ 'dataset': 'DIS_lab_LoS_8_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'xgboost',
+ 'n_bins': 2,
+ 'n_trials': 50,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_8_X-xgboost-Tune/Norm-standard-Nan-mean-new-Cat-ordinal',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': True}
+{'fit': {'n_bins': 89, 'verbose': False}, 'model': {'alpha': 0, 'colsample_bylevel': 0.9853767412458537, 'colsample_bytree': 0.7967009667270486, 'gamma': 0, 'gpu_id': '0', 'lambda': 0, 'learning_rate': 0.19316026964939925, 'max_depth': 10, 'min_child_weight': 5.3041385350928714e-05, 'subsample': 0.919115534078912, 'tree_method': 'gpu_hist'}}
+xgboost: 1 Trials
+MAE Results: 1.28559777e+02
+MAE MEAN = 1.28559777e+02 ± 0.00000000e+00
+R2 Results: 9.54873978e-01
+R2 MEAN = 9.54873978e-01 ± 0.00000000e+00
+RMSE Results: 1.81262456e+02
+RMSE MEAN = 1.81262456e+02 ± 0.00000000e+00
+Time Results: 11.98437905
+Time MEAN = 11.98437905 ± 0.00000000
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40339.3125 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------

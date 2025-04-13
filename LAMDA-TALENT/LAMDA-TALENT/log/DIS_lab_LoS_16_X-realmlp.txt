@@ -1,0 +1,38 @@
+using gpu: 0
+{'batch_size': 1024,
+ 'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'indices',
+ 'config': {'general': {},
+            'model': {'act': 'selu',
+                      'add_front_scale': True,
+                      'hidden_sizes': [256, 256, 256],
+                      'lr': 0.04,
+                      'ls_eps': 0.1,
+                      'num_emb_type': 'pbld',
+                      'p_drop': 0.15,
+                      'plr_sigma': 0.1,
+                      'wd': 0.02},
+            'training': {}},
+ 'dataset': 'DIS_lab_LoS_16_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'max_epoch': 5,
+ 'model_path': 'results_model',
+ 'model_type': 'realmlp',
+ 'n_bins': 2,
+ 'n_trials': 20,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_16_X-realmlp-Tune/Epoch5BZ1024-Norm-standard-Nan-mean-new-Cat-indices',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': True,
+ 'workers': 0}
+{'model': {'num_emb_type': 'pbld', 'add_front_scale': True, 'lr': 0.04, 'p_drop': 0.15, 'act': 'selu', 'hidden_sizes': [256, 256, 256], 'wd': 0.02, 'plr_sigma': 0.1, 'ls_eps': 0.1}, 'training': {'n_bins': 2}, 'general': {}}
+[32m[I 2025-04-11 20:22:40,465][0m Trial 0 finished with value: 17.67938897655631 and parameters: {'num_emb_type': 'pbld', 'add_front_scale': False, 'lr': 0.06541426860229964, 'p_drop': 0.15, 'act': 'selu', 'hidden_sizes': [256, 256, 256], 'wd': 0.02, 'plr_sigma': 0.30000379968058766, 'ls_eps': 0.1, 'n_bins': 205}. Best is trial 0 with value: 17.67938897655631.[0m
+[32m[I 2025-04-11 20:23:46,746][0m Trial 1 finished with value: 32.13374553667029 and parameters: {'num_emb_type': 'pbld', 'add_front_scale': False, 'lr': 0.08218096666920843, 'p_drop': 0.3, 'act': 'relu', 'hidden_sizes': [256, 256, 256], 'wd': 0.0, 'plr_sigma': 0.11441366694389209, 'ls_eps': 0.1, 'n_bins': 17}. Best is trial 0 with value: 17.67938897655631.[0m
+[32m[I 2025-04-11 20:24:56,726][0m Trial 2 finished with value: 50.64863398204494 and parameters: {'num_emb_type': 'pbld', 'add_front_scale': False, 'lr': 0.09367709906221168, 'p_drop': 0.15, 'act': 'mish', 'hidden_sizes': [64, 64, 64, 64, 64], 'wd': 0.0, 'plr_sigma': 0.22662070892951255, 'ls_eps': 0.1, 'n_bins': 96}. Best is trial 0 with value: 17.67938897655631.[0m

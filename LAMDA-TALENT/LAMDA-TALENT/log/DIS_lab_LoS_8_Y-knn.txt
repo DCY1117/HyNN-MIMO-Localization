@@ -1,0 +1,42 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'ordinal',
+ 'config': {'fit': {},
+            'model': {'algorithm': 'auto',
+                      'metric': 'minkowski',
+                      'p': 2,
+                      'weights': 'distance'}},
+ 'dataset': 'DIS_lab_LoS_8_Y',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'knn',
+ 'n_bins': 2,
+ 'n_trials': 50,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_8_Y-knn/Norm-standard-Nan-mean-new-Cat-ordinal',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': False}
+{'model': {'weights': 'distance', 'algorithm': 'auto', 'p': 2, 'metric': 'minkowski'}, 'fit': {'n_bins': 2}}
+knn: 1 Trials
+MAE Results: 3.18395352e+00
+MAE MEAN = 3.18395352e+00 ± 0.00000000e+00
+R2 Results: 9.99683588e-01
+R2 MEAN = 9.99683588e-01 ± 0.00000000e+00
+RMSE Results: 1.58489413e+01
+RMSE MEAN = 1.58489413e+01 ± 0.00000000e+00
+Time Results: 21.26777315
+Time MEAN = 21.26777315 ± 0.00000000
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40326.375 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------

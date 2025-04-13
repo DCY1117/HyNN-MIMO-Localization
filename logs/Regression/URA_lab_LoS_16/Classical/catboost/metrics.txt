@@ -1,0 +1,5 @@
+RMSE PosX: 91.34963872770251
+RMSE PosY: 110.30785831862893
+Mean Euclidean Error: 120.78137329440806
+Average Inference Time per Sample: 0.008 ms
+

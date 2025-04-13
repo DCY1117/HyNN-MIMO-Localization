@@ -1,0 +1,23 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'ordinal',
+ 'config': {'fit': {},
+            'model': {'max_depth': 12, 'n_estimators': 200, 'n_jobs': -1}},
+ 'dataset': 'DIS_lab_LoS_16_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'RandomForest',
+ 'n_bins': 2,
+ 'n_trials': 50,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_16_X-RandomForest/Norm-standard-Nan-mean-new-Cat-ordinal',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': False}
+{'model': {'max_depth': 12, 'n_estimators': 200, 'n_jobs': -1}, 'fit': {'n_bins': 2}}

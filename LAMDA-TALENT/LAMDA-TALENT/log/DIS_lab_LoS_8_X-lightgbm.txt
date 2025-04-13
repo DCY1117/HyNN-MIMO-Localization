@@ -1,0 +1,461 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'ordinal',
+ 'config': {'fit': {}, 'model': {'n_estimators': 2000}},
+ 'dataset': 'DIS_lab_LoS_8_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'lightgbm',
+ 'n_bins': 2,
+ 'n_trials': 50,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_8_X-lightgbm-Tune/Norm-standard-Nan-mean-new-Cat-ordinal',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': True}
+{'model': {'n_estimators': 2000}, 'fit': {'n_bins': 2}}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.717631 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:10:30,113][0m Trial 0 finished with value: 320.8663384364007 and parameters: {'num_leaves': 59, 'max_depth': 8, 'learning_rate': 0.06431172050131989, 'min_child_weight': 0.0015119336467641006, 'min_child_samples': 43, 'subsample': 0.8229470565333281, 'colsample_bytree': 0.7187936056313462, 'optional_reg_lambda': True, 'reg_lambda': 0.0008264328927007723, 'n_bins': 203}. Best is trial 0 with value: 320.8663384364007.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.657151 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:11:04,048][0m Trial 1 finished with value: 247.31508190484817 and parameters: {'num_leaves': 58, 'max_depth': 7, 'learning_rate': 0.5981221901152552, 'min_child_weight': 1.923730509654649e-05, 'min_child_samples': 10, 'subsample': 0.5101091987201629, 'colsample_bytree': 0.916309922773969, 'optional_reg_lambda': True, 'reg_lambda': 0.7817928805172362, 'n_bins': 205}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.690430 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:11:39,857][0m Trial 2 finished with value: 742.7245508861538 and parameters: {'num_leaves': 51, 'max_depth': 9, 'learning_rate': 0.0022637229697395483, 'min_child_weight': 0.0036281404040243792, 'min_child_samples': 16, 'subsample': 0.972334458524792, 'colsample_bytree': 0.7609241608750359, 'optional_reg_lambda': False, 'n_bins': 199}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.735603 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:12:17,976][0m Trial 3 finished with value: 793.726021166499 and parameters: {'num_leaves': 51, 'max_depth': 7, 'learning_rate': 0.0011385953381489414, 'min_child_weight': 0.002954894558726684, 'min_child_samples': 62, 'subsample': 0.8084669984373785, 'colsample_bytree': 0.9718740392573121, 'optional_reg_lambda': False, 'n_bins': 113}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.779645 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:12:43,019][0m Trial 4 finished with value: 405.7556843073638 and parameters: {'num_leaves': 73, 'max_depth': 3, 'learning_rate': 0.10006913513545575, 'min_child_weight': 0.004814503186400559, 'min_child_samples': 22, 'subsample': 0.5644631488274267, 'colsample_bytree': 0.6577141754620919, 'optional_reg_lambda': True, 'reg_lambda': 0.0015595796772974067, 'n_bins': 254}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.740393 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:13:09,361][0m Trial 5 finished with value: 731.2337766996425 and parameters: {'num_leaves': 19, 'max_depth': 4, 'learning_rate': 0.003047393617736388, 'min_child_weight': 0.004096691887503096, 'min_child_samples': 27, 'subsample': 0.7331553864281531, 'colsample_bytree': 0.6222127960008014, 'optional_reg_lambda': False, 'n_bins': 169}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.475848 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:13:36,518][0m Trial 6 finished with value: 533.0246065190181 and parameters: {'num_leaves': 22, 'max_depth': 4, 'learning_rate': 0.01276954761904551, 'min_child_weight': 0.01922971817485369, 'min_child_samples': 11, 'subsample': 0.918972453749402, 'colsample_bytree': 0.5480492039469815, 'optional_reg_lambda': False, 'n_bins': 251}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.466975 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:14:10,070][0m Trial 7 finished with value: 784.0167447098939 and parameters: {'num_leaves': 65, 'max_depth': 8, 'learning_rate': 0.001310881325831351, 'min_child_weight': 0.00013527821070347636, 'min_child_samples': 13, 'subsample': 0.6480700987610725, 'colsample_bytree': 0.559363859477122, 'optional_reg_lambda': True, 'reg_lambda': 2.092847008891181e-05, 'n_bins': 178}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.705252 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:14:38,812][0m Trial 8 finished with value: 394.39116049385035 and parameters: {'num_leaves': 61, 'max_depth': 5, 'learning_rate': 0.03713164249534621, 'min_child_weight': 2.3755383341274175e-05, 'min_child_samples': 59, 'subsample': 0.964648098788107, 'colsample_bytree': 0.6592844762256618, 'optional_reg_lambda': False, 'n_bins': 184}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.732785 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:15:06,892][0m Trial 9 finished with value: 397.0462577076386 and parameters: {'num_leaves': 36, 'max_depth': 4, 'learning_rate': 0.05748291778269796, 'min_child_weight': 1.2034559120184986e-05, 'min_child_samples': 84, 'subsample': 0.5023477380962735, 'colsample_bytree': 0.838908268398115, 'optional_reg_lambda': True, 'reg_lambda': 0.6470572767195607, 'n_bins': 65}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.672454 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:15:46,824][0m Trial 10 finished with value: 264.98636510711714 and parameters: {'num_leaves': 95, 'max_depth': 10, 'learning_rate': 0.7216635702812186, 'min_child_weight': 0.00018793823354596264, 'min_child_samples': 95, 'subsample': 0.6444684511398371, 'colsample_bytree': 0.9360600493172312, 'optional_reg_lambda': True, 'reg_lambda': 0.9357767816066499, 'n_bins': 17}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.682732 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:16:25,911][0m Trial 11 finished with value: 336.0618784864487 and parameters: {'num_leaves': 93, 'max_depth': 10, 'learning_rate': 0.9945911393063654, 'min_child_weight': 0.0001753149702840301, 'min_child_samples': 92, 'subsample': 0.6306519907555425, 'colsample_bytree': 0.986968794688829, 'optional_reg_lambda': True, 'reg_lambda': 0.6120842326638262, 'n_bins': 20}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.690375 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:16:57,954][0m Trial 12 finished with value: 304.53698903327125 and parameters: {'num_leaves': 97, 'max_depth': 6, 'learning_rate': 0.9209059274716836, 'min_child_weight': 0.0001143974986319474, 'min_child_samples': 76, 'subsample': 0.5008328174795822, 'colsample_bytree': 0.8876716956816, 'optional_reg_lambda': True, 'reg_lambda': 0.0639671207403584, 'n_bins': 9}. Best is trial 1 with value: 247.31508190484817.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.744691 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:17:42,122][0m Trial 13 finished with value: 212.3505266355638 and parameters: {'num_leaves': 82, 'max_depth': 10, 'learning_rate': 0.31321153450176475, 'min_child_weight': 4.48588488438161e-05, 'min_child_samples': 40, 'subsample': 0.6467244905993274, 'colsample_bytree': 0.8882630222006828, 'optional_reg_lambda': True, 'reg_lambda': 0.05583730654512241, 'n_bins': 125}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.744812 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:18:21,408][0m Trial 14 finished with value: 231.45301076677015 and parameters: {'num_leaves': 79, 'max_depth': 7, 'learning_rate': 0.2566300296835481, 'min_child_weight': 3.8820047079601927e-05, 'min_child_samples': 38, 'subsample': 0.5719994418156998, 'colsample_bytree': 0.8155480698204522, 'optional_reg_lambda': True, 'reg_lambda': 0.020003590318161478, 'n_bins': 121}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.748739 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:19:02,963][0m Trial 15 finished with value: 215.29903466199616 and parameters: {'num_leaves': 78, 'max_depth': 9, 'learning_rate': 0.2551604159901272, 'min_child_weight': 4.949133181572869e-05, 'min_child_samples': 37, 'subsample': 0.7158998594096244, 'colsample_bytree': 0.8040608591736728, 'optional_reg_lambda': True, 'reg_lambda': 0.020055071580562057, 'n_bins': 123}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.750902 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:19:45,824][0m Trial 16 finished with value: 224.69425154890206 and parameters: {'num_leaves': 80, 'max_depth': 9, 'learning_rate': 0.18100881874600078, 'min_child_weight': 0.0004337043408467618, 'min_child_samples': 36, 'subsample': 0.7404399856185908, 'colsample_bytree': 0.8409567874457935, 'optional_reg_lambda': True, 'reg_lambda': 0.021911007822311358, 'n_bins': 87}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.639925 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:20:32,245][0m Trial 17 finished with value: 447.95641277960846 and parameters: {'num_leaves': 84, 'max_depth': 9, 'learning_rate': 0.014027862420459683, 'min_child_weight': 5.9242720830619626e-05, 'min_child_samples': 48, 'subsample': 0.7023570083234187, 'colsample_bytree': 0.7637750015422761, 'optional_reg_lambda': True, 'reg_lambda': 0.005679225269889374, 'n_bins': 149}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.727298 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:21:09,709][0m Trial 18 finished with value: 217.58060492681813 and parameters: {'num_leaves': 71, 'max_depth': 10, 'learning_rate': 0.37266635074385396, 'min_child_weight': 0.0006568753979860421, 'min_child_samples': 61, 'subsample': 0.8101772739819002, 'colsample_bytree': 0.861784180795439, 'optional_reg_lambda': True, 'reg_lambda': 0.00025640145471889574, 'n_bins': 60}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.530815 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:21:46,237][0m Trial 19 finished with value: 236.62602623592042 and parameters: {'num_leaves': 87, 'max_depth': 8, 'learning_rate': 0.1456758385425545, 'min_child_weight': 0.04647181884652555, 'min_child_samples': 31, 'subsample': 0.6852288376230457, 'colsample_bytree': 0.7950299100729171, 'optional_reg_lambda': True, 'reg_lambda': 0.09252835656440932, 'n_bins': 94}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.720231 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:22:19,016][0m Trial 20 finished with value: 238.54134905327808 and parameters: {'num_leaves': 39, 'max_depth': 9, 'learning_rate': 0.34020091997429686, 'min_child_weight': 1.0413100123787604e-05, 'min_child_samples': 53, 'subsample': 0.5894293709580682, 'colsample_bytree': 0.7163929390978533, 'optional_reg_lambda': True, 'reg_lambda': 0.10007978492253954, 'n_bins': 140}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.722693 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:22:54,783][0m Trial 21 finished with value: 216.36970588575753 and parameters: {'num_leaves': 71, 'max_depth': 10, 'learning_rate': 0.3516504142768016, 'min_child_weight': 0.0006194710745980829, 'min_child_samples': 68, 'subsample': 0.8034227215568941, 'colsample_bytree': 0.8796928027755953, 'optional_reg_lambda': True, 'reg_lambda': 0.00025871388498127, 'n_bins': 48}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.773467 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:23:34,841][0m Trial 22 finished with value: 224.53499629301675 and parameters: {'num_leaves': 73, 'max_depth': 10, 'learning_rate': 0.43550730491334244, 'min_child_weight': 0.00036141466497126594, 'min_child_samples': 73, 'subsample': 0.8542463896035012, 'colsample_bytree': 0.8931250193687251, 'optional_reg_lambda': True, 'reg_lambda': 9.973177740859198e-05, 'n_bins': 47}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.783403 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:24:25,313][0m Trial 23 finished with value: 228.99557147421726 and parameters: {'num_leaves': 88, 'max_depth': 10, 'learning_rate': 0.14650662624483363, 'min_child_weight': 5.7281466978918204e-05, 'min_child_samples': 71, 'subsample': 0.7867522463370739, 'colsample_bytree': 0.943483257722855, 'optional_reg_lambda': True, 'reg_lambda': 0.0071179323834764975, 'n_bins': 93}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.717616 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:25:09,867][0m Trial 24 finished with value: 220.49149961476414 and parameters: {'num_leaves': 67, 'max_depth': 9, 'learning_rate': 0.24627665491384987, 'min_child_weight': 0.0012911856367364615, 'min_child_samples': 50, 'subsample': 0.8750571520677908, 'colsample_bytree': 0.8740875267230583, 'optional_reg_lambda': True, 'reg_lambda': 0.000431483488848218, 'n_bins': 36}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.688473 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:25:50,630][0m Trial 25 finished with value: 262.48442400153266 and parameters: {'num_leaves': 79, 'max_depth': 8, 'learning_rate': 0.10782519128474302, 'min_child_weight': 0.011171373421808807, 'min_child_samples': 42, 'subsample': 0.7744106740016482, 'colsample_bytree': 0.8048774599541674, 'optional_reg_lambda': True, 'reg_lambda': 4.3414569394930885e-05, 'n_bins': 153}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.792207 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:26:33,114][0m Trial 26 finished with value: 452.9947523508743 and parameters: {'num_leaves': 43, 'max_depth': 10, 'learning_rate': 0.015708224888618533, 'min_child_weight': 0.00031411274004041764, 'min_child_samples': 2, 'subsample': 0.6899396614177948, 'colsample_bytree': 0.9141084457213611, 'optional_reg_lambda': False, 'n_bins': 108}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.621606 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:27:11,973][0m Trial 27 finished with value: 228.17606747262766 and parameters: {'num_leaves': 75, 'max_depth': 9, 'learning_rate': 0.47158249636082655, 'min_child_weight': 7.605386897540884e-05, 'min_child_samples': 67, 'subsample': 0.7261901819186116, 'colsample_bytree': 0.7826515964777301, 'optional_reg_lambda': True, 'reg_lambda': 0.012100418421623639, 'n_bins': 129}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.680329 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:27:38,642][0m Trial 28 finished with value: 394.1966372312966 and parameters: {'num_leaves': 11, 'max_depth': 6, 'learning_rate': 0.06744461311416348, 'min_child_weight': 3.0357338623534744e-05, 'min_child_samples': 81, 'subsample': 0.7658668574124159, 'colsample_bytree': 0.723075346067666, 'optional_reg_lambda': True, 'reg_lambda': 0.0035369496621754904, 'n_bins': 74}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.591176 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:28:24,255][0m Trial 29 finished with value: 364.79208697171873 and parameters: {'num_leaves': 89, 'max_depth': 8, 'learning_rate': 0.02715044103291305, 'min_child_weight': 0.0013571466939719325, 'min_child_samples': 46, 'subsample': 0.8535092507323375, 'colsample_bytree': 0.824561922005814, 'optional_reg_lambda': True, 'reg_lambda': 0.053365676626056686, 'n_bins': 230}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.745918 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:29:02,004][0m Trial 30 finished with value: 221.47911833589785 and parameters: {'num_leaves': 66, 'max_depth': 10, 'learning_rate': 0.2364510429647339, 'min_child_weight': 0.0006162818379221749, 'min_child_samples': 55, 'subsample': 0.6125401704980512, 'colsample_bytree': 0.7304571705230316, 'optional_reg_lambda': True, 'reg_lambda': 0.1843052912432704, 'n_bins': 47}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.624475 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:29:42,578][0m Trial 31 finished with value: 218.5947699108565 and parameters: {'num_leaves': 71, 'max_depth': 10, 'learning_rate': 0.32355208887808534, 'min_child_weight': 0.0007734177111118919, 'min_child_samples': 60, 'subsample': 0.828865176322714, 'colsample_bytree': 0.8619120492925553, 'optional_reg_lambda': True, 'reg_lambda': 0.00020563999874962594, 'n_bins': 62}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.837287 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:30:17,430][0m Trial 32 finished with value: 244.37398477140084 and parameters: {'num_leaves': 57, 'max_depth': 9, 'learning_rate': 0.5892637824297661, 'min_child_weight': 9.262372668690031e-05, 'min_child_samples': 32, 'subsample': 0.6740825234287523, 'colsample_bytree': 0.8589260411149425, 'optional_reg_lambda': True, 'reg_lambda': 0.00019551097490719342, 'n_bins': 32}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.815744 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:31:03,300][0m Trial 33 finished with value: 220.81015902956034 and parameters: {'num_leaves': 83, 'max_depth': 10, 'learning_rate': 0.3995795764889267, 'min_child_weight': 0.0022932959397693876, 'min_child_samples': 66, 'subsample': 0.8981503674206746, 'colsample_bytree': 0.936854847620747, 'optional_reg_lambda': True, 'reg_lambda': 1.0382249387435612e-05, 'n_bins': 73}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.689101 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:31:46,133][0m Trial 34 finished with value: 281.7505442187645 and parameters: {'num_leaves': 63, 'max_depth': 9, 'learning_rate': 0.0926458737804246, 'min_child_weight': 0.0002466005798697213, 'min_child_samples': 22, 'subsample': 0.8192906070345185, 'colsample_bytree': 0.9060555518131872, 'optional_reg_lambda': True, 'reg_lambda': 0.0012310111575303759, 'n_bins': 106}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.791135 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:32:25,437][0m Trial 35 finished with value: 242.89063092771153 and parameters: {'num_leaves': 52, 'max_depth': 10, 'learning_rate': 0.6085734754143669, 'min_child_weight': 0.0006299481996218696, 'min_child_samples': 40, 'subsample': 0.7964713055716008, 'colsample_bytree': 0.96547084173526, 'optional_reg_lambda': False, 'n_bins': 52}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.704316 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:33:06,714][0m Trial 36 finished with value: 231.38628383812224 and parameters: {'num_leaves': 70, 'max_depth': 9, 'learning_rate': 0.1829508111286022, 'min_child_weight': 1.751089039949803e-05, 'min_child_samples': 57, 'subsample': 0.5437566438592016, 'colsample_bytree': 0.8595944855220078, 'optional_reg_lambda': True, 'reg_lambda': 0.0004594752170460029, 'n_bins': 162}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.753758 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:33:45,865][0m Trial 37 finished with value: 335.6142111566548 and parameters: {'num_leaves': 100, 'max_depth': 7, 'learning_rate': 0.04648122922100315, 'min_child_weight': 0.0024702589489575062, 'min_child_samples': 22, 'subsample': 0.7230397872097316, 'colsample_bytree': 0.7655565441861824, 'optional_reg_lambda': False, 'n_bins': 89}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.708305 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:34:28,965][0m Trial 38 finished with value: 267.4313969681501 and parameters: {'num_leaves': 75, 'max_depth': 8, 'learning_rate': 0.10480359762144772, 'min_child_weight': 0.008617115506079603, 'min_child_samples': 45, 'subsample': 0.7603011870758618, 'colsample_bytree': 0.9968307591470054, 'optional_reg_lambda': True, 'reg_lambda': 0.0020379242738910834, 'n_bins': 2}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.727103 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:35:08,041][0m Trial 39 finished with value: 547.9264708294174 and parameters: {'num_leaves': 46, 'max_depth': 10, 'learning_rate': 0.008869809682330598, 'min_child_weight': 5.182070858529509e-05, 'min_child_samples': 65, 'subsample': 0.9347982235436866, 'colsample_bytree': 0.8429976721424335, 'optional_reg_lambda': True, 'reg_lambda': 0.03567300754847404, 'n_bins': 214}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.722817 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:35:45,244][0m Trial 40 finished with value: 611.3621858882823 and parameters: {'num_leaves': 61, 'max_depth': 8, 'learning_rate': 0.005950310138537666, 'min_child_weight': 0.00097853374552266, 'min_child_samples': 28, 'subsample': 0.6604693189726575, 'colsample_bytree': 0.6898898408083851, 'optional_reg_lambda': False, 'n_bins': 132}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.732070 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:36:22,298][0m Trial 41 finished with value: 218.65202459867496 and parameters: {'num_leaves': 70, 'max_depth': 10, 'learning_rate': 0.29535403397381116, 'min_child_weight': 0.000720800337417806, 'min_child_samples': 61, 'subsample': 0.831196971196074, 'colsample_bytree': 0.8722456060843197, 'optional_reg_lambda': True, 'reg_lambda': 0.00015798383149186432, 'n_bins': 62}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.708107 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:37:04,958][0m Trial 42 finished with value: 216.90682055477504 and parameters: {'num_leaves': 77, 'max_depth': 10, 'learning_rate': 0.36192042694151266, 'min_child_weight': 0.001905855209445388, 'min_child_samples': 53, 'subsample': 0.8329187183345999, 'colsample_bytree': 0.9161384935157666, 'optional_reg_lambda': True, 'reg_lambda': 0.00031918939214414853, 'n_bins': 36}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.342683 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:37:36,079][0m Trial 43 finished with value: 241.1634592658129 and parameters: {'num_leaves': 77, 'max_depth': 9, 'learning_rate': 0.5694975709691786, 'min_child_weight': 0.0039920126311231196, 'min_child_samples': 50, 'subsample': 0.7987077080276894, 'colsample_bytree': 0.5089140145721643, 'optional_reg_lambda': True, 'reg_lambda': 0.0005369387330493847, 'n_bins': 31}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.770430 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:38:12,170][0m Trial 44 finished with value: 281.8521211006574 and parameters: {'num_leaves': 83, 'max_depth': 10, 'learning_rate': 0.8012511028923215, 'min_child_weight': 0.08880482658599914, 'min_child_samples': 79, 'subsample': 0.8553038359788594, 'colsample_bytree': 0.9296298660207839, 'optional_reg_lambda': True, 'reg_lambda': 4.861802530096402e-05, 'n_bins': 20}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.743970 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:38:52,557][0m Trial 45 finished with value: 217.68664972183697 and parameters: {'num_leaves': 92, 'max_depth': 10, 'learning_rate': 0.1805692602103599, 'min_child_weight': 0.0017068650470845389, 'min_child_samples': 36, 'subsample': 0.7092772881296066, 'colsample_bytree': 0.965736167779166, 'optional_reg_lambda': True, 'reg_lambda': 0.0007026812047433179, 'n_bins': 119}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.757598 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:39:18,936][0m Trial 46 finished with value: 327.87203983767927 and parameters: {'num_leaves': 57, 'max_depth': 3, 'learning_rate': 0.5146794293645265, 'min_child_weight': 0.00016692534248733987, 'min_child_samples': 88, 'subsample': 0.7492748565307049, 'colsample_bytree': 0.9047313760925654, 'optional_reg_lambda': True, 'reg_lambda': 0.24804059303996923, 'n_bins': 80}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.703292 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[32m[I 2025-04-10 17:39:57,108][0m Trial 47 finished with value: 224.94761424364066 and parameters: {'num_leaves': 68, 'max_depth': 9, 'learning_rate': 0.3832118387461717, 'min_child_weight': 0.007690515248786145, 'min_child_samples': 70, 'subsample': 0.8886088139430917, 'colsample_bytree': 0.8844506405661782, 'optional_reg_lambda': True, 'reg_lambda': 4.3716287954004194e-05, 'n_bins': 186}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.680507 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:40:34,860][0m Trial 48 finished with value: 238.35886857859157 and parameters: {'num_leaves': 82, 'max_depth': 10, 'learning_rate': 0.1318087714741609, 'min_child_weight': 1.7747844696271342e-05, 'min_child_samples': 52, 'subsample': 0.9867024739758764, 'colsample_bytree': 0.8216311488290291, 'optional_reg_lambda': False, 'n_bins': 104}. Best is trial 13 with value: 212.3505266355638.[0m
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.760766 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+[32m[I 2025-04-10 17:41:15,041][0m Trial 49 finished with value: 273.1473406714225 and parameters: {'num_leaves': 91, 'max_depth': 9, 'learning_rate': 0.08081698721667545, 'min_child_weight': 3.651476448188278e-05, 'min_child_samples': 42, 'subsample': 0.7784309668363045, 'colsample_bytree': 0.7828106940838332, 'optional_reg_lambda': True, 'reg_lambda': 0.0003117273515303895, 'n_bins': 55}. Best is trial 13 with value: 212.3505266355638.[0m
+Best Hyper-Parameters
+{'model': {'num_leaves': 82, 'max_depth': 10, 'learning_rate': 0.31321153450176475, 'min_child_weight': 4.48588488438161e-05, 'min_child_samples': 40, 'subsample': 0.6467244905993274, 'colsample_bytree': 0.8882630222006828, 'reg_lambda': 0.05583730654512241}, 'fit': {'n_bins': 125}}
+{'model': {'num_leaves': 82, 'max_depth': 10, 'learning_rate': 0.31321153450176475, 'min_child_weight': 4.48588488438161e-05, 'min_child_samples': 40, 'subsample': 0.6467244905993274, 'colsample_bytree': 0.8882630222006828, 'reg_lambda': 0.05583730654512241}, 'fit': {'n_bins': 125}}
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.720787 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 408000
+[LightGBM] [Info] Number of data points in the train set: 214203, number of used features: 1600
+[LightGBM] [Info] Start training from score 0.000000
+lightgbm: 1 Trials
+MAE Results: 1.59581922e+02
+MAE MEAN = 1.59581922e+02 ± 0.00000000e+00
+R2 Results: 9.39198888e-01
+R2 MEAN = 9.39198888e-01 ± 0.00000000e+00
+RMSE Results: 2.10402113e+02
+RMSE MEAN = 2.10402113e+02 ± 0.00000000e+00
+Time Results: 30.57440257
+Time MEAN = 30.57440257 ± 0.00000000
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40326.375 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------

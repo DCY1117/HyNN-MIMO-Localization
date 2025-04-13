@@ -1,0 +1,57 @@
+using gpu: 0
+{'batch_size': 1024,
+ 'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'indices',
+ 'config': {'general': {},
+            'model': {'act': 'selu',
+                      'add_front_scale': True,
+                      'hidden_sizes': [256, 256, 256],
+                      'lr': 0.04,
+                      'ls_eps': 0.1,
+                      'num_emb_type': 'pbld',
+                      'p_drop': 0.15,
+                      'plr_sigma': 0.1,
+                      'wd': 0.02},
+            'training': {}},
+ 'dataset': 'URA_lab_LoS_16_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'max_epoch': 200,
+ 'model_path': 'results_model',
+ 'model_type': 'realmlp',
+ 'n_bins': 2,
+ 'n_trials': 20,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/URA_lab_LoS_16_X-realmlp/Epoch200BZ1024-Norm-standard-Nan-mean-new-Cat-indices',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': False,
+ 'workers': 0}
+{'model': {'num_emb_type': 'pbld', 'add_front_scale': True, 'lr': 0.04, 'p_drop': 0.15, 'act': 'selu', 'hidden_sizes': [256, 256, 256], 'wd': 0.02, 'plr_sigma': 0.1, 'ls_eps': 0.1}, 'training': {'n_bins': 2}, 'general': {}}
+best epoch 0, best val res=3.8661
+Test: loss=0.0000
+[MAE]=3.8436
+[R2]=1.0000
+[RMSE]=5.0665
+realmlp: 1 Trials
+MAE Results: 3.84364554e+00
+MAE MEAN = 3.84364554e+00 ± 0.00000000e+00
+R2 Results: 9.99964744e-01
+R2 MEAN = 9.99964744e-01 ± 0.00000000e+00
+RMSE Results: 5.06653054e+00
+RMSE MEAN = 5.06653054e+00 ± 0.00000000e+00
+Time Results: 1176.46697640
+Time MEAN = 1176.46697640 ± 0.00000000
+Mean Loss: 3.52901955e-05
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40326.375 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------

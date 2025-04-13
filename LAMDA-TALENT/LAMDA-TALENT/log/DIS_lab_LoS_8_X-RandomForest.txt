@@ -1,0 +1,39 @@
+using gpu: 0
+{'cat_min_frequency': 0.0,
+ 'cat_nan_policy': 'new',
+ 'cat_policy': 'ordinal',
+ 'config': {'fit': {},
+            'model': {'max_depth': 12, 'n_estimators': 200, 'n_jobs': -1}},
+ 'dataset': 'DIS_lab_LoS_8_X',
+ 'dataset_path': 'data',
+ 'evaluate_option': 'best-val',
+ 'gpu': '0',
+ 'model_path': 'results_model',
+ 'model_type': 'RandomForest',
+ 'n_bins': 2,
+ 'n_trials': 50,
+ 'normalization': 'standard',
+ 'num_nan_policy': 'mean',
+ 'num_policy': 'none',
+ 'retune': False,
+ 'save_path': 'results_model/DIS_lab_LoS_8_X-RandomForest/Norm-standard-Nan-mean-new-Cat-ordinal',
+ 'seed': 0,
+ 'seed_num': 1,
+ 'tune': False}
+{'model': {'max_depth': 12, 'n_estimators': 200, 'n_jobs': -1}, 'fit': {'n_bins': 2}}
+RandomForest: 1 Trials
+MAE Results: 2.25434577e+02
+MAE MEAN = 2.25434577e+02 ± 0.00000000e+00
+R2 Results: 8.60718074e-01
+R2 MEAN = 8.60718074e-01 ± 0.00000000e+00
+RMSE Results: 3.18450339e+02
+RMSE MEAN = 3.18450339e+02 ± 0.00000000e+00
+Time Results: 1358.22023559
+Time MEAN = 1358.22023559 ± 0.00000000
+-------------------- GPU info --------------------
+1 GPU Available.
+GPU 0: NVIDIA A100-PCIE-40GB MIG 7g.40gb
+  Total Memory:          40326.375 MB
+  Multi Processor Count: 98
+  Compute Capability:    8.0
+--------------------------------------------------
