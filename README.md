@@ -41,7 +41,7 @@ Samples are split into:
 
 ## 💡 Highlights
 
-- **HyViT with REFINED** achieves **2.21 mm error** on DIS with 16 antennas.
+- HyViT with REFINED achieves a 2.21 mm localization error on DIS using only 16 antennas, surpassing previous state-of-the-art methods with 64 antennas.
 - **ViT outperforms CNN** in all transformation settings.
 - Classical KNN performs well (e.g., 3.27 mm on DIS), but deep models are significantly faster.
 - All transformation methods (TINTO, REFINED, IGTD) are implemented in [`TINTOlib`](https://tintolib.readthedocs.io).
