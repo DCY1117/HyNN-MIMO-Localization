@@ -16,3 +16,4 @@ torch-lr-finder==0.2.2
 torchmetrics==1.6.1
 tzdata==2025.1
 TINTOlib==1.0.4
+brokenaxes==0.6.2
