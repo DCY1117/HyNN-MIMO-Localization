@@ -19,7 +19,7 @@ It includes all experiments, hybrid model implementations, and evaluation code u
 This repository has a dedicated space on **DeepWiki**, where you can explore semantic documentation, relevant links, bibliography, and answers to frequently asked questions about its use and application.
 
 <p align="center">
-  <a href="https://deepwiki.com/manwestc/MIMO-indoor-localization-with-HybridNN-TINTOlib" target="_blank">
+  <a href="https://deepwiki.com/DCY1117/HyNN-MIMO-Localization" target="_blank">
     <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"/>
   </a>
 </p>
